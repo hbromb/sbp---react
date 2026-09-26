@@ -12,5 +12,10 @@ export const siteImages = {
     researchPark: { src: '/images/portfolio-crp.jpg', width: 1400, height: 990 },
     energy: { src: '/images/energy-management.jpg', width: 305, height: 227 },
   },
-  services: '/images/services-building-design.png',
+  services: {
+    src: '/images/services-commercial-building.jpg',
+    alt: 'Contemporary commercial office buildings viewed from below',
+    width: 940,
+    height: 627,
+  },
 };

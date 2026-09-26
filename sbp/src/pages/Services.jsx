@@ -34,10 +34,10 @@ function Services() {
       <div className="services-overview">
         <div className="services-art">
           <img
-            src={siteImages.services}
-            alt="Building services design drawing with a transparent building model"
-            width="400"
-            height="351"
+            src={siteImages.services.src}
+            alt={siteImages.services.alt}
+            width={siteImages.services.width}
+            height={siteImages.services.height}
             loading="lazy"
             decoding="async"
           />
