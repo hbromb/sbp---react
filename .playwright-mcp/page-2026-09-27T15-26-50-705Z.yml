@@ -1,0 +1,33 @@
+- generic [ref=f1e2]:
+  - banner [ref=f1e3]:
+    - link "Shepherd Brombley Partnership home" [ref=f1e4] [cursor=pointer]:
+      - /url: /
+      - img "Shepherd Brombley Partnership" [ref=f1e5]
+    - button "Toggle navigation" [ref=f1e6]
+  - main [ref=f1e11]:
+    - generic [ref=f1e12]:
+      - generic [ref=f1e13]:
+        - paragraph [ref=f1e14]: Independent MEP building services consultants
+        - heading [level=1] [ref=f1e15]:
+          - text: Engineering better
+          - emphasis [ref=f1e16]: buildings.
+        - paragraph [ref=f1e17]: Practical, sustainable design solutions from project conception through to completion, delivered with commercial awareness.
+        - link "Talk to our team →" [ref=f1e18] [cursor=pointer]:
+          - /url: /contact
+          - text: Talk to our team
+          - generic: →
+      - img "Modern buildings overlaid with architectural drawings" [ref=f1e20]
+    - generic [ref=f1e22]:
+      - figure [ref=f1e23]:
+        - img "Contemporary glass office building viewed from below" [ref=f1e24]
+      - heading "Experience that works in the real world." [level=2] [ref=f1e25]
+      - paragraph [ref=f1e26]: We are an independent consultancy with expertise in Mechanical, Electrical and Public Health building services engineering across all market sectors.
+      - link "Explore our services →" [ref=f1e27] [cursor=pointer]:
+        - /url: /services
+        - text: Explore our services
+        - generic [ref=f1e28]: →
+  - contentinfo [ref=f1e29]:
+    - generic [ref=f1e30]:
+      - generic [ref=f1e31]: Shepherd Brombley Partnership Ltd
+      - text: Mechanical, electrical and public health building services engineering.
+    - generic [ref=f1e32]: Company no. 8251351© 2026 SBP

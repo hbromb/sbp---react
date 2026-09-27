@@ -1,0 +1,268 @@
+WEBSITE CONTENT EXPORT
+Generated: 2026-09-27 16:13:51
+Source: C:\Users\hbrom\Desktop\sbp files\wp-content\mysql.sql
+
+Included records: 9
+
+================================================================================
+PAGE: ABOUT US
+Slug: about-us
+Status: publish
+Last modified: 2023-09-07 14:54:23
+--------------------------------------------------------------------------------
+
+About Us
+
+[section title="About Us"]
+
+Shepherd Brombley Partnership Limited was formed in 2012 and has over 35 years of combined industry experience between the founding partners.[/section]
+
+[staff_list]
+
+[section title="What Makes Us Different" style="gray"]
+
+Our significant experience working with one of the UK’s largest Design & Build Contractors has given us a in‐depth understanding of M&E projects from conception all the way through to operation. Our unique appreciation of practicality, buildability, functionality and commercial viability are integral to the services we offer and what makes us different.[/section]
+
+================================================================================
+PAGE: CONTACT US
+Slug: contact
+Status: publish
+Last modified: 2018-06-28 14:37:28
+--------------------------------------------------------------------------------
+
+Contact Us
+
+[section title="Get In Contact"][span6][formidable id=3][/span6]
+
+[span6]
+
+Shepherd Brombley Partnership Ltd
+
+Unit 22
+
+Basepoint Business Centre
+
+1 Winnall Valley Road
+
+Winchester
+
+Hampshire
+
+SO23 0LD
+
+ 
+
+Tel: 01962 832 656
+
+Email: enquiry@shepherdbrombley.co.uk
+
+ 
+
+Company Registration No. 8251351
+
+Registered Address: Cart Barn, Monk
+
+Sherborne, Tadley, Hampshire, RG26 5HL
+
+[/span6]
+[/section]
+
+[section]
+
+[/section]
+
+================================================================================
+PAGE: ENERGY MANAGEMENT
+Slug: energy-management
+Status: publish
+Last modified: 2014-10-30 17:35:32
+--------------------------------------------------------------------------------
+
+Energy Management
+
+[section title="Energy Management"][span6][/span6][span6]
+
+ 
+- Energy Audits
+
+ 
+- Energy Monitoring & Targeting
+
+ 
+- Energy Performance Certificates (EPC)
+
+ 
+- Display Energy Certificates (DEC)[/span6]
+
+[/section][services title="Experts In..." count="3" style="gray"]
+
+[/services]
+
+================================================================================
+PAGE: HOME
+Slug: home
+Status: publish
+Last modified: 2014-10-13 13:21:07
+--------------------------------------------------------------------------------
+
+Home
+
+[section title="Welcome to Shepherd Brombley Partnership"]
+
+Welcome to Shepherd Brombley Partnership.
+
+ 
+We are an independent Consultancy with expertise in all aspects of Mechanical, Electrical & Public Health (MEP) Building Services Engineering across all market sectors.
+
+ 
+From project conception through to completion, our team of highly skilled engineers have the experience and expertise to deliver high quality, innovative, sustainable design solutions with a practical and commercial awareness.
+
+ 
+
+[/section][services title="What We Do" style="gray"  count="3" lead="hide"]
+
+[/services]
+
+================================================================================
+PAGE: MECHANICAL & ELECTRICAL
+Slug: mechanical-electrical
+Status: publish
+Last modified: 2014-10-14 09:54:30
+--------------------------------------------------------------------------------
+
+Mechanical & Electrical
+
+[section title="Mechanical & Electrical"][span6]
+
+ [/span6][span6]
+
+ 
+- Dynamic Thermal Modelling
+
+ 
+- Air Conditioning
+
+ 
+- Natural & Mechanical
+
+ 
+- Ventilation
+
+ 
+- Heating
+
+ 
+- Water Services
+
+ 
+- Drainage
+
+ 
+- Lighting
+
+ 
+- Incoming & Small Power
+
+ 
+- Fire Alarms
+
+ 
+- Security
+
+ 
+- IT InfrastructureVoice & Data[/span6][/section]
+
+[services title="Experts In..." style="gray" lead="hide" count="3"]
+
+[/services]
+
+================================================================================
+PAGE: PORTFOLIO
+Slug: portfolio
+Status: publish
+Last modified: 2014-10-15 13:12:18
+--------------------------------------------------------------------------------
+
+Portfolio
+
+[portfolio title="Recent Projects" portfolio="recent-projects" count="7" style="circle" columns="4"] [portfolio title="Project Experience" portfolio="project-experience" style="gray"  count="4" columns="4"] [section title="Clients" ] [/section]
+
+================================================================================
+PAGE: SERVICES
+Slug: services
+Status: publish
+Last modified: 2018-06-28 14:33:03
+--------------------------------------------------------------------------------
+
+Services
+
+[section title="Services we provide" style="gray"][span6]
+
+[/span6][span6]
+
+ 
+- Design Concepts
+
+ 
+- Feasibility Studies
+
+ 
+- Planning Services
+
+ 
+- Performance Duties
+
+ 
+- Complete Building Services Design
+
+ 
+- Compliance Monitoring
+
+ 
+- Specialist Surveys
+
+[/span6]
+[/section]
+
+[services title="Experts In..." count="3"]
+
+[/services]
+
+================================================================================
+PAGE: Sustainability
+Slug: sustainability
+Status: publish
+Last modified: 2014-10-13 13:46:41
+--------------------------------------------------------------------------------
+
+Sustainability
+
+[section title="Sustainability"][span6]
+
+[/span6][span6]
+
+ 
+- Low & Zero Carbon (LZC) ‐ Advice & Design
+
+ 
+- Sustainability Compliance for Planning
+
+ 
+- Part L SBEM Calculations
+
+ 
+- BREEAM Advice
+
+[/span6][/section]
+[services title="Experts In..." style="gray" count="3"]
+
+[/services]
+
+================================================================================
+PAGE: test
+Slug: 
+Status: draft
+Last modified: 2015-05-01 12:48:19
+--------------------------------------------------------------------------------
+etst
+

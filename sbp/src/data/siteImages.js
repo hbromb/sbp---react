@@ -7,6 +7,10 @@ export const siteImages = {
     src: '/images/portfolio-geopost.jpg',
     alt: 'Contemporary glass office building viewed from below',
   },
+  homeProjects: {
+    src: '/images/home-projects.jpg',
+    alt: 'Server racks in a modern data centre',
+  },
   projects: {
     cambridge: { src: '/images/portfolio-cambridge.jpg', width: 440, height: 330 },
     researchPark: { src: '/images/portfolio-crp.jpg', width: 1400, height: 990 },
