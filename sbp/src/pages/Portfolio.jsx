@@ -50,7 +50,7 @@ function Portfolio() {
         ))}
       </div>
       <div className="portfolio-footer">
-        <p>From homes and commercial spaces to research, industrial, and specialist environments.</p>
+        <p>From commercial spaces to research, industrial, and specialist environments.</p>
         <Link className="text-link" to="/contact">Discuss your project <span>→</span></Link>
       </div>
     </section>

@@ -9,10 +9,10 @@ function About() {
           of combined industry experience between its founding partners.
         </p>
         <p>
-          Our experience with one of the UK&apos;s largest Design &amp; Build Contractors
-          gives us an in-depth understanding of MEP projects from conception through to
-          operation. That perspective shapes every practical, buildable, functional, and
-          commercially viable solution we offer.
+          Our experience with the UK&apos;s largest Design &amp; Build Contractors gives us
+          an in-depth understanding of MEP projects from conception through to operation.
+          That perspective shapes every practical, buildable, functional, and commercially
+          viable solution we offer.
         </p>
       </div>
       <div className="values-grid">
