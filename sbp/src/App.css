@@ -764,9 +764,16 @@ h3 {
 }
 
 .project-card-content h2 {
-  margin-top: 35px;
+  margin: 28px 0 14px;
   font-size: 24px;
   letter-spacing: -0.04em;
+}
+
+.project-card-content p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.6;
 }
 
 .portfolio-footer {
