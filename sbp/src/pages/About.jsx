@@ -15,6 +15,24 @@ function About() {
           viable solution we offer.
         </p>
       </div>
+      <div className="team-grid">
+        <div>
+          <h2>Dean Brombley</h2>
+          <p>Partner · Electrical Consultant</p>
+        </div>
+        <div>
+          <h2>Paul Shepherd</h2>
+          <p>Partner · Mechanical Consultant</p>
+        </div>
+        <div>
+          <h2>Leigh [Surname]</h2>
+          <p>[Title placeholder]</p>
+        </div>
+        <div>
+          <h2>Aaron [Surname]</h2>
+          <p>[Title placeholder]</p>
+        </div>
+      </div>
       <div className="values-grid">
         <div><h2>Practical</h2><p>Design that can be built, maintained, and operated well.</p></div>
         <div><h2>Collaborative</h2><p>Close coordination with clients, architects, contractors, and users.</p></div>

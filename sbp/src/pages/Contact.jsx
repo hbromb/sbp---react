@@ -56,7 +56,7 @@ function Contact() {
         <a href="mailto:enquiry@shepherdbrombley.co.uk">enquiry@shepherdbrombley.co.uk</a>
         <a href="tel:+441962832656">01962 832 656</a>
         <span>Unit 22, Basepoint Business Centre<br />1 Winnall Valley Road<br />Winchester, Hampshire SO23 0LD</span>
-        <span>Company registration no. 8251351<br />Registered address: Cart Barn, Monk, Sherborne, Tadley, Hampshire, RG26 5HL</span>
+        <span>Company registration no. 8251351</span>
       </div>
     </section>
   );

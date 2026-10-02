@@ -614,6 +614,28 @@ h3 {
   line-height: 1.3;
 }
 
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 22px;
+  margin-top: 85px;
+  padding-top: 26px;
+  border-top: 1px solid var(--line);
+}
+
+.team-grid h2 {
+  margin: 0 0 10px;
+  font-size: 22px;
+  letter-spacing: -0.04em;
+}
+
+.team-grid p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.5;
+}
+
 .values-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -774,6 +796,20 @@ h3 {
   color: var(--muted);
   font-size: 14px;
   line-height: 1.6;
+}
+
+.project-link {
+  display: inline-flex;
+  gap: 8px;
+  margin-top: 20px;
+  color: var(--ink);
+  font-size: 13px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.project-link:hover {
+  color: var(--orange-dark);
 }
 
 .portfolio-footer {
@@ -989,6 +1025,16 @@ h3 {
 
   .service-detail-grid h2 {
     margin: 28px 0 35px;
+  }
+
+  .team-grid {
+    display: block;
+    margin-top: 65px;
+  }
+
+  .team-grid > div {
+    padding: 22px 0;
+    border-bottom: 1px solid var(--line);
   }
 
   .values-grid {
