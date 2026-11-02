@@ -6,7 +6,7 @@ const projects = [
     title: 'Guildford, Amplify Distribution Park',
     type: 'Industrial development',
     description:
-      'Work has started on site to speculatively develop 3 units totalling 72,000 sq ft on this highly prominent site at the front of Guildford Business Park, which can be seen from the A3.',
+      'Work has recently completed to speculatively develop 3 units totalling 72,000 sq ft on this highly prominent site at the front of Guildford Business Park, which can be seen from the A3. The project involved extensive service diversions and achieved EPC A+ and BREEAM Excellent ratings.',
     image: '/images/goya-guildford.jpg',
     alt: 'Amplify Distribution Park proposal in Guildford',
     href: 'https://www.goyadevelopments.co.uk/current-developments',
@@ -24,18 +24,10 @@ const projects = [
     title: 'Reading, Hurricane Urban Hub',
     type: 'Industrial development',
     description:
-      'A 184,000 sq ft speculative industrial warehouse development has just been completed, with units ranging between 10,000 sq ft and 48,000 sq ft.',
+      'A 184,000 sq ft speculative industrial warehouse development has just been completed, with units ranging between 10,000 sq ft and 48,000 sq ft. The project involved extensive service diversions and achieved EPC A+ and BREEAM Excellent ratings.',
     image: '/images/goya-reading.jpg',
     alt: 'Hurricane Urban Hub modern warehouse in Reading',
     href: 'https://www.goyadevelopments.co.uk/current-developments',
-  },
-  {
-    title: 'Cambridge Avenue',
-    type: 'Residential development',
-    description:
-      'A contemporary residential development supported by practical, high-quality building services engineering.',
-    image: siteImages.projects.cambridge.src,
-    alt: 'Contemporary residential buildings at Cambridge Avenue',
   },
   {
     title: 'Poyle, Project Stack',
@@ -50,7 +42,7 @@ const projects = [
     title: 'Swanley, Swanley Distribution Park',
     type: 'Warehouse development',
     description:
-      'A 4 unit warehouse development of 162,192 sq ft, with units ranging from 26,581 sq ft to 55,212 sq ft. The site abuts the M25. We have already pre let one of the 4 units.',
+      'A 4 unit warehouse development located near the M25 of 162,192 sq ft, with units ranging from 26,581 sq ft to 55,212 sq ft. The project achieved EPC A+ and BREEAM Excellent ratings.',
     image: '/images/goya-swanley.jpeg',
     alt: 'Swanley Distribution Park warehouse CGI',
     href: 'https://www.goyadevelopments.co.uk/current-developments',
@@ -62,15 +54,28 @@ const projects = [
       'A research and commercial environment shaped around the needs of its occupiers, with practical engineering expertise from early design through to completion.',
     image: siteImages.projects.researchPark.src,
     alt: 'Cambridge Research Park project',
+    href: 'https://cambridgeresearchpark.co.uk/2305-2',
   },
   {
     title: 'Tottenham, Valhalla Distribution Park',
     type: 'Urban logistics development',
     description:
-      'Detailed planning permission has been granted to redevelop this existing super prime industrial site for a new 143,000 sq ft urban hub, with units ranging between 6,000 sq ft and 76,000 sq ft. Work has started on site, with completion due Autumn 2026.',
+      'Re-development of this existing super prime industrial site for a new 143,000 sq ft urban hub, with units ranging between 6,000 sq ft and 76,000 sq ft. Work completed in Autumn 2026 with EPC A+ and BREEAM Excellent ratings achieved.',
     image: '/images/goya-tottenham-valhalla.jpg',
     alt: 'Valhalla Distribution Park CGI in Tottenham',
     href: 'https://www.goyadevelopments.co.uk/current-developments',
+  },
+  {
+    title: 'Cody Technology Park',
+    type: 'Major refurbishment',
+    description:
+      'Major refurbishment of the existing facilities including updated MEP systems to improve energy efficiency and the EPC ratings of the various buildings across the park.',
+    image: siteImages.projects.energy.src,
+    alt: 'Cody Technology Park refurbishment project',
+    hrefs: [
+      { label: 'View project', url: 'https://xlbproperty.com/2025/05/29/cody-technology-park/3115/' },
+      { label: 'Future | Cody', url: 'https://www.codytechnologypark.com/future/' },
+    ],
   },
 ];
 
@@ -96,7 +101,21 @@ function Portfolio() {
               <span>{project.type}</span>
               <h2>{project.title}</h2>
               <p>{project.description}</p>
-              {project.href && (
+              {project.hrefs ? (
+                <div className="project-links">
+                  {project.hrefs.map((link) => (
+                    <a
+                      key={link.url}
+                      className="project-link"
+                      href={link.url}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      {link.label} <span aria-hidden="true">↗</span>
+                    </a>
+                  ))}
+                </div>
+              ) : project.href ? (
                 <a
                   className="project-link"
                   href={project.href}
@@ -105,7 +124,7 @@ function Portfolio() {
                 >
                   View project <span aria-hidden="true">↗</span>
                 </a>
-              )}
+              ) : null}
             </div>
           </article>
         ))}

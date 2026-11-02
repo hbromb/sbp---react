@@ -7,6 +7,7 @@ const services = [
   'Planning Services',
   'Performance Duties',
   'Complete Building Services Design',
+  'Utility Connections Support',
   'Compliance Monitoring',
   'Specialist Surveys',
 ];
