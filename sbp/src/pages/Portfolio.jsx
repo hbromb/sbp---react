@@ -70,8 +70,8 @@ const projects = [
     type: 'Major refurbishment',
     description:
       'Major refurbishment of the existing facilities including updated MEP systems to improve energy efficiency and the EPC ratings of the various buildings across the park.',
-    image: siteImages.projects.energy.src,
-    alt: 'Cody Technology Park refurbishment project',
+    image: '/images/cody-technology-park.jpg',
+    alt: 'Cody Technology Park design concept',
     hrefs: [
       { label: 'View project', url: 'https://xlbproperty.com/2025/05/29/cody-technology-park/3115/' },
       { label: 'Future | Cody', url: 'https://www.codytechnologypark.com/future/' },
